@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  DetailViewController.swift
 //  CoreData_App_UIKit
 //
 //  Created by Евгений Березенцев on 03.01.2022.
@@ -7,13 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class DetailViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
+        view.backgroundColor = .systemBackground
+        
     }
+    
+
 
 
 }
-
